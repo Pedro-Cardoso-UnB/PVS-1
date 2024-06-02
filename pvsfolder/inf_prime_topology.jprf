@@ -1,0 +1,75 @@
+{
+ "inf_prime_topology.int_is_open": [
+  {
+   "info": {
+    "theory": "inf_prime_topology",
+    "formula": "int_is_open",
+    "status": "proved",
+    "prover": "PVS 7.1.0 (Allegro CL Enterprise Edition)",
+    "shasum": "0127a07f403c39ab8e7e1772cc1690f60546cd75a2b70d4df82b74dd1d1e4c1a"
+   },
+   "origin": ".prf",
+   "proofTree": {
+    "branch": "",
+    "name": "int_is_open",
+    "type": "root",
+    "rules": [
+     {
+      "branch": "",
+      "name": "(expand \"open_N_Z?\")",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(flatten)",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(hide 1)",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(skeep)",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(expand N)",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(inst 1 \"1\")",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(typepred a)",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(assert)",
+      "type": "proof-command",
+      "rules": []
+     },
+     {
+      "branch": "",
+      "name": "(grind)",
+      "type": "proof-command",
+      "rules": []
+     }
+    ]
+   }
+  }
+ ]
+}
