@@ -78,6 +78,7 @@ open_is_infinite: LEMMA
   FORALL (A: (open?)): nonempty?[int](A) IMPLIES is_infinite[int](A)
 
 %—————————————————– QUESTÃO 2 ———————————————————
+% @QED Nab_open proved by pedro on Tue, 04 Jun 2024 18:42:10 GMT
 Nab_open: CONJECTURE open?(N(a)(b))
 
 Nab_closed: LEMMA closed?(N(a)(b))
