@@ -159,8 +159,8 @@
     (NOT const-decl "[bool -> bool]" booleans nil)
     (set type-eq-decl nil sets nil)
     (int_plus_int_is_int application-judgement "int" integers nil)
-    (numfield nonempty-type-eq-decl nil number_fields nil)
     (+ const-decl "[numfield, numfield -> numfield]" number_fields nil)
+    (numfield nonempty-type-eq-decl nil number_fields nil)
     (TRUE const-decl "bool" booleans nil)
     (posint nonempty-type-eq-decl nil integers nil)
     (> const-decl "bool" reals nil)
@@ -196,25 +196,5 @@
    shostak))
  (N_prime_TCC1 0
   (N_prime_TCC1-1 nil 3925820628 ("" (subtype-tcc) nil nil) nil nil
-   (N_prime subtype "inf_prime_topology.p" "posint")))
- (one_prime_decomposition_ind 0
-  (one_prime_decomposition_ind-1 nil 3926596500
-   ("" (induct n)
-    (("1" (prop)
-      (("1" (hide 1)
-        (("1" (inst 1 "2")
-          (("1" (expand "divides")
-            (("1" (inst 1 "0") (("1" (grind) nil nil)) nil)) nil)
-           ("2" (expand "prime?")
-            (("2" (skeep)
-              (("2" (expand "divides")
-                (("2" (skeep) (("2" (postpone) nil nil)) nil)) nil))
-              nil))
-            nil))
-          nil))
-        nil))
-      nil)
-     ("2" (postpone) nil nil))
-    nil)
-   nil shostak)))
+   (N_prime subtype "inf_prime_topology.p" "posint"))))
 
